@@ -1,0 +1,45 @@
+footer, header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  background-color: blueviolet;
+}
+
+.mainWrapper {
+  padding: 3px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.taskButton {
+  margin-left: 3px;
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+
+.editButton {
+  background-color: rgb(0, 119, 255);
+}
+
+.removeButton {
+  background-color: red;
+}
+
+.saveButton {
+  background-color: greenyellow;
+}
+
+.cancelButton {
+  background-color: gray;
+}
+
+.taskWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
